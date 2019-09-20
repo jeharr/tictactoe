@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameboard {
+  border: solid 1px black;
+  width: 250px;
+  table-layout: fixed;
+}
+
+.cell {
+  font-size: 40px;
+  text-align: center;
+  height: 90px;
+  width: 120px;
+  border: 1px solid black;
+}
