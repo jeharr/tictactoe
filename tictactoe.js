@@ -1,7 +1,9 @@
 /*
-  TicTacToe Class challenges a game of tic tac toe pitting a user vs a computer opponent.
-  After each click of a cell, the program will evaluate to see if any of the winning combination
-  of cell IDs is within that players Moves in this.playerInfo.
+  TicTacToeGame Class creates a tictactoe instance that has the functionality needed for playing and
+  retaining a tic tac toe game against a computer opponent.
+  The Class state is updated from two possible click events that take place in the browser,
+  either from the click of a td cell that represents the game board, or from a reset button that appears
+  after the game is over.
 */
 
 class ticTacToeGame {
