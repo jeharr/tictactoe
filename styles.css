@@ -1,19 +1,35 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .gameboard {
   border: solid 1px black;
-  width: 250px;
   table-layout: fixed;
 }
 
 .cell {
+  cursor: pointer;
   font-size: 40px;
   text-align: center;
   height: 90px;
   width: 120px;
   border: 1px solid black;
+}
+
+.results {
+  padding: 20px;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.reset-button {
+  visibility: hidden;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 1px 1px 2px black;
 }
