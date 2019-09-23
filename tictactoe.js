@@ -110,7 +110,7 @@ class ticTacToeGame {
       const index = Math.floor(Math.random() * (cellArray.length - 1));
       cellId = cellArray[index];
     }
-    setTimeout(() => $(`#${cellId}`).click(), 350);
+    setTimeout(() => $(`#${cellId}`).click(), 150);
   }
 
   // Iterates through each winning combination to see if there is a match between each combo set
